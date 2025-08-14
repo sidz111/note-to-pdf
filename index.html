@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hacker Notepad</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="matrix">
+      <canvas id="matrixCanvas"></canvas>
+    </div>
+    <div class="notepad" contenteditable="true" id="notepad">
+      <!-- You can type your notes or codes here -->
+      Type your notes or code here...
+    </div>
+    <div class="buttons">
+      <button id="clearBtn">🗑 Clear</button>
+      <button id="downloadPdf">📄 Save as PDF</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </body>
+</html>
